@@ -4,6 +4,9 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   //...
+  app: {
+    baseURL: '/awl_highlighter/'
+  },
   ssr: false,
   build: {
     transpile: ['vuetify'],
