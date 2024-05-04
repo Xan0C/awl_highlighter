@@ -1,1 +1,0 @@
-import{_ as t,v as a,aW as d,t as s}from"./BrgWOgdY.js";const o={},c={class:"default-layout"};function n(e,r){return s(),a("div",c,[d(e.$slots,"default",{},void 0)])}const f=t(o,[["render",n],["__scopeId","data-v-ddd6f3cd"]]);export{f as default};
