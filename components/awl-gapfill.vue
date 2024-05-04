@@ -1,25 +1,25 @@
 <template>
   <v-container v-if="value && value.map && value.map.size > 0">
-    <v-container>
-      <v-btn-toggle
-          color="blue"
-          group
-          mandatory
-          v-model="toggle"
-      >
-        <v-btn value="simple">
-          simple gapfill
-        </v-btn>
+<!--    <v-container>-->
+<!--      <v-btn-toggle-->
+<!--          color="blue"-->
+<!--          group-->
+<!--          mandatory-->
+<!--          v-model="toggle"-->
+<!--      >-->
+<!--        <v-btn value="simple">-->
+<!--          simple gapfill-->
+<!--        </v-btn>-->
 
-        <v-btn value="headword">
-          head word gapfill
-        </v-btn>
+<!--        <v-btn value="headword">-->
+<!--          head word gapfill-->
+<!--        </v-btn>-->
 
-        <v-btn value="wordfamily">
-          word family gapfill
-        </v-btn>
-      </v-btn-toggle>
-    </v-container>
+<!--        <v-btn value="wordfamily">-->
+<!--          word family gapfill-->
+<!--        </v-btn>-->
+<!--      </v-btn-toggle>-->
+<!--    </v-container>-->
     <p v-html="formattedText"></p>
   </v-container>
 </template>

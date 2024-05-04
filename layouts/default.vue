@@ -6,6 +6,6 @@
 
 <style scoped>
 .default-layout {
-  margin: 64px 128px 64px 128px;
+  margin: 5% 10% 5% 10%;
 }
 </style>
