@@ -1,13 +1,15 @@
 <template>
   <v-textarea v-model="text" clearable variant="solo-filled"></v-textarea>
-  <v-list lines="lines" v-if="model.map.size > 0">
-    <v-list-item v-for="value in sortedList" :key="value.key">
-      <div class="wordlist">
-        <v-checkbox-btn v-model="selected" :label="value.key + ''" :value="value.key" />
-        <span>{{ [...value.sublist].join(', ') }}</span>
-      </div>
-    </v-list-item>
-  </v-list>
+  <v-container fluid>
+    <v-list v-if="model.map.size > 0">
+      <v-list-item v-for="value in sortedList" :key="value.key">
+        <div class="wordlist">
+          <v-checkbox-btn v-model="selected" :label="value.key + ''" :value="value.key" />
+          <span>{{ [...value.sublist].join(', ') }}</span>
+        </div>
+      </v-list-item>
+    </v-list>
+  </v-container>
 </template>
 
 <style scoped>

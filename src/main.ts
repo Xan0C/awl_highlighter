@@ -1,5 +1,4 @@
-import './assets/main.css';
-
+import '@mdi/font/css/materialdesignicons.css'; // Ensure you are using css-loader
 import { createApp } from 'vue';
 
 // Vuetify
